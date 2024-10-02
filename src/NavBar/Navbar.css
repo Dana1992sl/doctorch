@@ -71,3 +71,9 @@
     }
 
 }
+.nav-links ul li a:hover{
+    box-shadow:0 0px 10px 0px ;
+    padding:5px;
+    text-decoration:underline;
+
+}
