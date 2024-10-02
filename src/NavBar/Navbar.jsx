@@ -8,6 +8,7 @@ const Navbar = () => {
     <img src={assets.logo} alt='logo' className='logo' />
     <ul className='nav-links'>
         <li><a>Home</a></li>
+        <li><a>About</a></li>
 
     </ul>
 
