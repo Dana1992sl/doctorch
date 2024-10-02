@@ -15,21 +15,24 @@
 }
 .nav-links{
     display: flex; 
-    width:100%;
-    float:right;
     flex-direction:row;
 }
-.nav-links li {
+
+.nav-links ul li {
+    display:inline-flex;
     font-size: 20px;
     list-style: none;
     flex-direction: row;
-    gap:20px;
+    
     
 
 }
 .nav-links ul li a{
-    display:flex;
-    
+    padding:20px;
+    align-items:center;
+    cursor:pointer;
+    justify-content:center;
+
 
 }
 
