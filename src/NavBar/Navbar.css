@@ -1,6 +1,6 @@
 .navbar{
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -8,5 +8,63 @@
     padding: 0 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     position: fixed;
-    top: 0;
+    top: 30px;
+    flex-direction: row;
+    
+    
+}
+.nav-links{
+    display: flex; 
+    width:100%;
+    float:right;
+    flex-direction:row;
+}
+.nav-links li {
+    font-size: 20px;
+    list-style: none;
+    flex-direction: row;
+    gap:20px;
+    
+
+}
+.nav-links ul li a{
+    display:flex;
+    
+
+}
+
+.logo{
+    width:200px;
+    top:20px;
+}
+.search-bar{
+    display:flex;
+    margin-right: 20px;
+    
+    
+}
+.search-bar input{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    margin-bottom:20px;
+    display:none;
+}
+
+.search-bar button{
+    border-radius:15px;
+    margin-bottom:20px;
+    margin-right:20px;
+}
+
+.search-bar:hover{
+    input{
+        display:flex;
+    }
+
 }
