@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: center;
     display:inline-flex;
+    background-color:#A9A9F5;
     
 
 }
@@ -45,12 +46,20 @@
     transition: background-color 0.3s ease-in-out;
     padding:5px;
 }
+.header-text button{
+    margin-bottom:50px;
+    margin-left:150px;
+}
 @media (max-width:750px){
     .Head{
         width:100%;
     }
     .header-image{
-        width:80%;
+        width:100%;
+        align-items: center;
+        justify-content: center;
+        display:flex;
+
     }
     .header-image img{
         width:30%;
@@ -59,6 +68,13 @@
 
     .header-text{
         width:80%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .header-text button{
+        margin-bottom:50px;
+        margin-left:80px;
     }
     .header-image h1{
         font-size:2rem;

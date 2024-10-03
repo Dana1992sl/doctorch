@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './NavBar/Navbar'
 import './NavBar/Navbar.css'
+import Appoint from './Pages/Appoint/Appoint'
 import Head from './Pages/Head/Head'
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <Navbar/>
     <Routes>
     <Route path='/' element={<Head/>} />
+    <Route path='/Appoint' element={<Appoint/>}/>
 
     </Routes>
     
